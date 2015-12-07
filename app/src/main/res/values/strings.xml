@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ADB</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_commandTitle">Type in a shell :</string>
+    <string name="main_command">adb connect %s</string>
+    <string name="main_uncommand">adb disconnect %s</string>
+    <string name="main_noRoot">Sorry\nYour phone must be rooted.</string>
+    <string name="main_hintOn">- Touch to start ADB -</string>
+    <string name="main_hintOff">- Touch to stop ADB -</string>
+    <string name="main_wifiQuestion">You have to be connected through Wifi.</string>
+    <string name="main_connect">Connect</string>
+    <string name="main_quit">Quit</string>
+
+    <string name="notif_ticker">ADB started</string>
+    <string name="notif_title">ADB over Wifi is running</string>
+    <string name="notif_stop">Stop</string>
+
+    <string name="widget_off">ADB over wifi off</string>
+    <string name="widget_wifiDisconnected">Wifi disconnected</string>
+
+    <!-- Settings -->
+    <string name="port">Port</string>
+    <string name="notification">Notification</string>
+    <string name="server_noti">When the connection active</string>
+    <string name="wifi_on">WiFi auto on</string>
+    <string name="server_wifi_on">Turn on WiFi when app starts</string>
+    <string name="wakelock_title">Turn on WakeLock</string>
+    <string name="wakelock_subtitle">Keep the screen on</string>
+
+    <!-- Defaults -->
+    <string name="default_port">5555</string>
+    <string name="default_notif">true</string>
+    <string name="default_wifi_on">false</string>
+    <string name="default_wakelock">false</string>
+
+    <!-- Keys -->
+    <string name="pref_port_key">key_port</string>
+    <string name="pref_notif_key">key_notif</string>
+    <string name="pref_wifi_on_key">key_wifi_on</string>
+    <string name="pref_wakelock_key">key_wakelock</string>
+</resources>
